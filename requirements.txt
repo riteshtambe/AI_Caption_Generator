@@ -3,6 +3,9 @@ transformers
 torch
 Pillow
 soundfile
+sentence-transformers
 espnet
-numpy
-scipy
+espnet_model_zoo
+accelerate
+git+https://github.com/openai/CLIP.git
+flash_attn
