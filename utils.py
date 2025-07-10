@@ -7,7 +7,7 @@ import google.generativeai as genai
 import espnet2.bin.tts_inference as tts_inference
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBp1TAEH8fW73pHMbIqvEV1gayNofB0DUQ")  # ← Replace with your real Gemini API key
+genai.configure(api_key="GEMINI_API_KEY")  # ← Replace with your real Gemini API key
 gemini_model = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
 
 for m in genai.list_models():
